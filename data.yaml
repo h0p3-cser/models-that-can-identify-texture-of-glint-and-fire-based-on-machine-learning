@@ -1,0 +1,13 @@
+﻿# YOLO dataset config for flame/glint region detection.
+# Keep this file at project root by default.
+
+path: dataset
+train: images/train
+val: images/val
+
+# Optional test set:
+# test: images/test
+
+names:
+  0: flame
+  1: glint

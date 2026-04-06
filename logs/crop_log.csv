@@ -1,0 +1,5 @@
+﻿source_folder,source_image,class_name,detected_confidence,bbox_x1,bbox_y1,bbox_x2,bbox_y2,crop_side,padded_left,padded_top,padded_right,padded_bottom,output_path,status,error_message
+C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\测试集fire,27951228903_df9a031148_o.jpg,fire,,,,,,,,,,,,failed,no_detection
+C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\测试集fire,35531876743_9c1021daa1_o.jpg,fire,,,,,,,,,,,,failed,no_detection
+C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\测试集glint,1013.jpg,glint,,,,,,,,,,,,failed,no_detection
+C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\测试集glint,1014.jpg,glint,,,,,,,,,,,,failed,no_detection

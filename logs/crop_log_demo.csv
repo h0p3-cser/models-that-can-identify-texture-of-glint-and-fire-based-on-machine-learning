@@ -1,0 +1,5 @@
+﻿source_folder,source_image,class_name,detected_confidence,bbox_x1,bbox_y1,bbox_x2,bbox_y2,crop_side,padded_left,padded_top,padded_right,padded_bottom,output_path,status,error_message
+C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\测试集fire,27951228903_df9a031148_o.jpg,glint,0.124255,3159.2,37.69,4745.57,3055.15,5030,0,969,1715,893,C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\outputs_demo\fire_512\27951228903_df9a031148_o_512.jpg,success,
+C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\测试集fire,35531876743_9c1021daa1_o.jpg,glint,0.064018,5.03,60.19,2385.87,2514.42,4091,850,758,0,0,C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\outputs_demo\fire_512\35531876743_9c1021daa1_o_512.jpg,success,
+C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\测试集glint,1013.jpg,glint,0.022383,98.97,38.71,2763.43,3458.77,5701,1419,1102,0,967,C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\outputs_demo\glint_512\1013_512.jpg,success,
+C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\测试集glint,1014.jpg,glint,0.039172,28.53,12.64,2862.67,2384.09,4725,917,1164,0,0,C:\Users\Administrator\Desktop\机器学习版本记录\自动剪切模型\outputs_demo\glint_512\1014_512.jpg,success,
