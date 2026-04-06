@@ -1,0 +1,144 @@
+{
+  "task": "亮度区域二分类(0=无高亮,1=有高亮)",
+  "pipeline": "图像 -> 预处理 -> 特征提取 -> 特征向量 -> 分类器训练 -> 预测",
+  "dataset_dirs": {
+    "positive": [
+      "light",
+      "fire_light"
+    ],
+    "negative": [
+      "without_light",
+      "without_fire_light"
+    ]
+  },
+  "libraries": [
+    "opencv-python(cv2)",
+    "numpy",
+    "pandas",
+    "scikit-learn"
+  ],
+  "preprocess": {
+    "image_size": [
+      224,
+      224
+    ],
+    "gray": true,
+    "keep_rgb_features": true,
+    "bright_threshold": 200,
+    "red_dominance_delta": 30
+  },
+  "feature_columns": [
+    "brightness_mean",
+    "brightness_std",
+    "brightness_max",
+    "brightness_min",
+    "brightness_p95",
+    "block_mean_var",
+    "block_mean_max",
+    "block_mean_min",
+    "block_top3_mean",
+    "bright_block_count",
+    "bright_pixel_ratio",
+    "connected_component_count",
+    "largest_component_area",
+    "largest_component_ratio",
+    "sobel_mean",
+    "laplacian_var",
+    "rgb_r_mean",
+    "rgb_g_mean",
+    "rgb_b_mean",
+    "rgb_r_p95",
+    "rgb_red_ratio_mean",
+    "red_over_green_mean",
+    "red_over_blue_mean",
+    "red_dominance_mean",
+    "bright_red_pixel_ratio",
+    "bright_red_mean_dominance",
+    "bright_red_mean_intensity",
+    "bright_red_component_count",
+    "bright_red_largest_component_ratio"
+  ],
+  "train_test_split": {
+    "test_size": 0.2,
+    "seed": 42,
+    "stratify": true,
+    "train_samples": 358,
+    "test_samples": 90
+  },
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.8888888888888888,
+      "precision": 0.8979591836734694,
+      "recall": 0.8979591836734694,
+      "f1_score": 0.8979591836734694,
+      "confusion_matrix": [
+        [
+          36,
+          5
+        ],
+        [
+          5,
+          44
+        ]
+      ]
+    },
+    "random_forest": {
+      "accuracy": 0.9,
+      "precision": 0.9,
+      "recall": 0.9183673469387755,
+      "f1_score": 0.9090909090909091,
+      "confusion_matrix": [
+        [
+          36,
+          5
+        ],
+        [
+          4,
+          45
+        ]
+      ]
+    },
+    "variance_threshold_baseline": {
+      "accuracy": 0.8333333333333334,
+      "precision": 0.8035714285714286,
+      "recall": 0.9183673469387755,
+      "f1_score": 0.8571428571428571,
+      "confusion_matrix": [
+        [
+          30,
+          11
+        ],
+        [
+          4,
+          45
+        ]
+      ],
+      "threshold": 237.2255096435547
+    }
+  },
+  "best_model": {
+    "name": "random_forest",
+    "metrics": {
+      "accuracy": 0.9,
+      "precision": 0.9,
+      "recall": 0.9183673469387755,
+      "f1_score": 0.9090909090909091,
+      "confusion_matrix": [
+        [
+          36,
+          5
+        ],
+        [
+          4,
+          45
+        ]
+      ]
+    },
+    "saved_model_path": "C:\\Users\\Administrator\\Desktop\\机器学习版本记录\\自动切剪图片脚本\\最佳高亮分类器.joblib"
+  },
+  "artifacts": {
+    "lists_output": "C:\\Users\\Administrator\\Desktop\\机器学习版本记录\\自动切剪图片脚本\\序号列表.json",
+    "feature_output": "C:\\Users\\Administrator\\Desktop\\机器学习版本记录\\自动切剪图片脚本\\特征表.csv",
+    "report_output": "C:\\Users\\Administrator\\Desktop\\机器学习版本记录\\自动切剪图片脚本\\亮度方差阈值模型.json"
+  }
+}

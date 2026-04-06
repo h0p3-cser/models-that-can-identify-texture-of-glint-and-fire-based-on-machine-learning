@@ -1,0 +1,14 @@
+﻿image_path,file_name,class_name,label,pred_logistic_regression,pred_svm_rbf,pred_random_forest
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\glint\glint_015.jpg,glint_015.jpg,glint,0,0,0,0
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\fire\fire_007.jpg,fire_007.jpg,fire,1,1,1,1
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\fire\fire_023.jpg,fire_023.jpg,fire,1,1,1,1
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\glint\glint_010.jpg,glint_010.jpg,glint,0,0,0,0
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\fire\fire_022.jpg,fire_022.jpg,fire,1,1,1,1
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\glint\glint_021.jpg,glint_021.jpg,glint,0,0,0,0
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\fire\fire_019.jpg,fire_019.jpg,fire,1,1,1,1
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\glint\glint_011.jpg,glint_011.jpg,glint,0,0,0,0
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\fire\fire_010.jpg,fire_010.jpg,fire,1,1,1,1
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\fire\fire_021.jpg,fire_021.jpg,fire,1,1,1,1
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\glint\glint_027.jpg,glint_027.jpg,glint,0,0,0,0
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\fire\fire_006.jpg,fire_006.jpg,fire,1,1,1,1
+C:\Users\Administrator\Desktop\机器学习版本记录\纹理识别模型\glint\glint_028.jpg,glint_028.jpg,glint,0,0,0,0

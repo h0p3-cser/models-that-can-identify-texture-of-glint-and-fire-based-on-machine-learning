@@ -1,0 +1,4 @@
+﻿model,accuracy,precision,recall,f1_score,tn,fp,fn,tp
+logistic_regression,1.0,1.0,1.0,1.0,6,0,0,7
+svm_rbf,1.0,1.0,1.0,1.0,6,0,0,7
+random_forest,1.0,1.0,1.0,1.0,6,0,0,7

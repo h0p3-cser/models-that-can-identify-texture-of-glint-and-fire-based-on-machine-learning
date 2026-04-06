@@ -1,0 +1,4 @@
+﻿model,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1_mean,f1_std
+logistic_regression,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+random_forest,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0
+svm_rbf,1.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0

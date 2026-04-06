@@ -1,0 +1,24 @@
+Fire vs Glint Classifier Evaluation Summary
+==========================================
+
+1. Holdout metrics
+              model  accuracy  precision  recall  f1_score  tn  fp  fn  tp
+logistic_regression       1.0        1.0     1.0       1.0   6   0   0   7
+            svm_rbf       1.0        1.0     1.0       1.0   6   0   0   7
+      random_forest       1.0        1.0     1.0       1.0   6   0   0   7
+
+2. ROC-AUC
+              model  roc_auc
+logistic_regression      1.0
+      random_forest      1.0
+            svm_rbf      1.0
+
+3. Repeated cross-validation
+              model  accuracy_mean  accuracy_std  precision_mean  precision_std  recall_mean  recall_std  f1_mean  f1_std
+logistic_regression            1.0           0.0             1.0            0.0          1.0         0.0      1.0     0.0
+      random_forest            1.0           0.0             1.0            0.0          1.0         0.0      1.0     0.0
+            svm_rbf            1.0           0.0             1.0            0.0          1.0         0.0      1.0     0.0
+
+4. Best model: logistic_regression
+   Misclassified holdout samples: 0 / 13
+   No holdout errors.
